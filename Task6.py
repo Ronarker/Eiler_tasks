@@ -8,4 +8,6 @@ def solution(n):
         sum_of_squares += number1 ** 2
     return(squared_amount - sum_of_squares)
 
+if __name__ == "__main__":
+    solution(50)
 
